@@ -21,15 +21,15 @@ This repository contains a wide range of data structures and algorithms implemen
 The following data structures are currently included in this repository:
 <!-- TODO - Array (Dynamic) -->
 - Linked List
-    - [Singly Linked List](./LinkedLists/SinglyLinkedList/singly-linked-list.md)
-    - [Singly Linked List (Tail Pointer)](./LinkedLists/SinglyLinkedListTail/singly-linked-list-with-tail.md)
-    - [Doubly Linked List](./LinkedLists/DoublyLinkedList/doubly-linked-list.md)
+    - [Singly Linked List](./DataStructures/LinkedLists/SinglyLinkedList/singly-linked-list.md)
+    - [Singly Linked List (Tail Pointer)](./DataStructures/LinkedLists/SinglyLinkedListTail/singly-linked-list-with-tail.md)
+    - [Doubly Linked List](./DataStructures/LinkedLists/DoublyLinkedList/doubly-linked-list.md)
 <!-- TODO - Stack -->
 <!-- TODO - Queue -->
 
 ## Algorithms
-<!-- Search Algorithms -->
-<!-- TODO - Linear Search -->
+- Search Algorithms
+    - [Linear Search](./Algorithms/LinearSearch/linear-search.md)
 <!-- TODO - Binary Search -->
 <!-- Sorting Algorithms -->
 <!-- TODO - Bubble Sort -->
