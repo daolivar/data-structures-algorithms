@@ -12,8 +12,8 @@
  * @return None.
  */
 DoublyLinkedList::DoublyLinkedList() {
-    this->head = nullptr;
-    this->tail = nullptr;
+    head = nullptr;
+    tail = nullptr;
 }
 
 /**

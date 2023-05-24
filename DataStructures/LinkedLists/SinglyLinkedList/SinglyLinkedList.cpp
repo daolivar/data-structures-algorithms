@@ -12,7 +12,7 @@
  * @return None.
 */
 SinglyLinkedList::SinglyLinkedList() {
-    this->head = nullptr;
+    head = nullptr;
 }
 
 /**
