@@ -12,8 +12,8 @@
  * @return None.
 */
 SinglyLinkedListWithTail::SinglyLinkedListWithTail() {
-    this->head = nullptr;
-    this->tail = nullptr;
+    head = nullptr;
+    tail = nullptr;
 }
 
 /**

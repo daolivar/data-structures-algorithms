@@ -11,6 +11,6 @@
  */
 Node::Node(int data) {
     this->data = data;
-    this->prev = nullptr;
-    this->next = nullptr;
+    prev = nullptr;
+    next = nullptr;
 }
