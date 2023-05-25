@@ -19,7 +19,7 @@ This repository contains a wide range of data structures and algorithms implemen
 ## Data Structures
 
 The following data structures are currently included in this repository:
-<!-- TODO - Array (Dynamic) -->
+- [Array (Dynamic)](./DataStructures/Dynamic-Array/dynamic-array.md)
 - Linked List
     - [Singly Linked List](./DataStructures/LinkedLists/SinglyLinkedList/singly-linked-list.md)
     - [Singly Linked List (Tail Pointer)](./DataStructures/LinkedLists/SinglyLinkedListTail/singly-linked-list-with-tail.md)
