@@ -2,10 +2,9 @@
 
 #include "DoublyLinkedList.hpp"
 
-using namespace std;
-
 int main() {
-    cout << "Doubly Linked List" << endl;
+    std::cout << "Doubly Linked List" << std::endl;
+
     DoublyLinkedList list;
     list.insert(5);         // Inserting value 5 at the end
     list.insert(10);        // Inserting value 10 at the end
@@ -20,5 +19,6 @@ int main() {
     list.remove(5);         // Removing value 5
     list.displayForward();  // Displays 15 20
     list.displayBackward(); // Displays 20 15
+
     return 0;
 }

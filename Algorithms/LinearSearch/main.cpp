@@ -1,8 +1,6 @@
 #include <iostream>
 #include <vector>
 
-using namespace std;
-
 /**
  * @brief Perform linear search to find the target element in the given array.
  *
@@ -64,6 +62,8 @@ void checkTargetFound(int index) {
 }
 
 int main() {
+    std::cout << "Linear Search" << std::endl;
+
     // static array declaration and initialization
     int arr[] = {3, 5, 2, 7, 1, 9};
     int size = sizeof(arr) / sizeof(arr[0]);
@@ -78,5 +78,6 @@ int main() {
 
     checkTargetFound(index1);
     checkTargetFound(index2);
+
     return 0;
 }

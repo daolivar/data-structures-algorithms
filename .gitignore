@@ -1,0 +1,12 @@
+# Ignore .DS_Store files/directories
+.DS_Store
+
+# Ignore .vscode directory
+.vscode/
+
+# Ignore build directory and program executable
+build/
+program
+
+# Ignore object files
+*.o

@@ -2,10 +2,9 @@
 
 #include "SinglyLinkedListWithTail.hpp"
 
-using namespace std;
-
 int main() {
-    cout << "Singly Linked List With Tail" << endl;
+    std::cout << "Singly Linked List With Tail" << std::endl;
+
     SinglyLinkedListWithTail list;
     list.insert(5);     // Inserting value 5 at the end
     list.insert(10);    // Inserting value 10 at the end
@@ -18,5 +17,6 @@ int main() {
     list.remove(25);    // Removing value 25
     list.remove(5);     // Removing value 5
     list.display();     // Displays 15 20
+
     return 0;
 }
