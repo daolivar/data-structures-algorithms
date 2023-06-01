@@ -1,8 +1,6 @@
 #include <iostream>
 #include <vector>
 
-using namespace std;
-
 /**
  * @brief Perform iterative binary search on a sorted array to find the target value.
  *
@@ -15,7 +13,7 @@ using namespace std;
  * @return The index of the target value if found, or -1 if not found.
  * @remark Calculation of mid is performed using subtraction and division to prevent potential overflow issues.
  */
-int binarySearchIterative(vector<int>& array, int target) {
+int binarySearchIterative(const std::vector<int>& array, int target) {
     int left = 0;
     int right = array.size() - 1;
     while (left <= right) {
@@ -46,7 +44,7 @@ int binarySearchIterative(vector<int>& array, int target) {
  * @return The index of the target value if found, or -1 if not found.
  * @remark Calculation of mid is performed using subtraction and division to prevent potential overflow issues.
  */
-int binarySearchHelper(vector<int>& array, int target, int left, int right) {
+int binarySearchHelper(const std::vector<int>& array, int target, int left, int right) {
     if (left <= right) {
         int mid = left + (right - left) / 2;
         if (array[mid] == target) {
@@ -71,7 +69,7 @@ int binarySearchHelper(vector<int>& array, int target, int left, int right) {
  * @param target The target value to find.
  * @return The index of the target value if found, or -1 if not found.
  */
-int binarySearchRecursive(vector<int>& array, int target) {
+int binarySearchRecursive(const std::vector<int>& array, int target) {
     return binarySearchHelper(array, target, 0, array.size() - 1);
 }
 
@@ -95,7 +93,9 @@ void checkTargetFound(int index) {
 }
 
 int main() {
-    vector<int> array = {1, 3, 5, 7, 9, 11, 13, 15};
+    std::cout << "Binary Search" << std::endl;
+
+    std::vector<int> array = {1, 3, 5, 7, 9, 11, 13, 15};
     int target = 7;
 
     int iterativeResult = binarySearchIterative(array, target);
@@ -103,5 +103,6 @@ int main() {
 
     checkTargetFound(iterativeResult);
     checkTargetFound(recursiveResult);
+
     return 0;
 }

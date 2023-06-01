@@ -1,9 +1,11 @@
 #include <iostream>
+
 #include "DynamicArray.hpp"
 
 int main() {
-    DynamicArray arr;
+    std::cout << "Dynamic Array" << std::endl;
 
+    DynamicArray arr;
     // Add elements to the dynamic array
     arr.push_back(5);
     arr.push_back(10);
