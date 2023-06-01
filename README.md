@@ -30,7 +30,7 @@ The following data structures are currently included in this repository:
 ## Algorithms
 - Search Algorithms
     - [Linear Search](./Algorithms/LinearSearch/linear-search.md)
-<!-- TODO - Binary Search -->
+    - [Binary Search](./Algorithms/BinarySearch/binary-search.md)
 <!-- Sorting Algorithms -->
 <!-- TODO - Bubble Sort -->
 <!-- TODO - Insertion Sort -->
