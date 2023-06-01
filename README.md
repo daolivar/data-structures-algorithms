@@ -29,8 +29,8 @@ The following data structures are currently included in this repository:
 
 ## Algorithms
 - Search Algorithms
-    - [Linear Search](./Algorithms/LinearSearch/linear-search.md)
-    - [Binary Search](./Algorithms/BinarySearch/binary-search.md)
-<!-- Sorting Algorithms -->
-<!-- TODO - Bubble Sort -->
+    - [Linear Search](./Algorithms/Searching/LinearSearch/linear-search.md)
+    - [Binary Search](./Algorithms/Searching/BinarySearch/binary-search.md)
+- Sorting Algorithms
+    - [Bubble Sort](./Algorithms/Sorting/BubbleSort/bubble-sort.md)
 <!-- TODO - Insertion Sort -->
