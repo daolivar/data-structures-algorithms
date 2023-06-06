@@ -24,7 +24,7 @@ The following data structures are currently included in this repository:
     - [Singly Linked List](./DataStructures/LinkedLists/SinglyLinkedList/singly-linked-list.md)
     - [Singly Linked List (Tail Pointer)](./DataStructures/LinkedLists/SinglyLinkedListTail/singly-linked-list-with-tail.md)
     - [Doubly Linked List](./DataStructures/LinkedLists/DoublyLinkedList/doubly-linked-list.md)
-<!-- TODO - Stack -->
+- [Stack](./DataStructures/Stack/stack.md)
 <!-- TODO - Queue -->
 
 ## Algorithms
