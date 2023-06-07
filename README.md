@@ -33,4 +33,4 @@ The following data structures are currently included in this repository:
     - [Binary Search](./Algorithms/Searching/BinarySearch/binary-search.md)
 - Sorting Algorithms
     - [Bubble Sort](./Algorithms/Sorting/BubbleSort/bubble-sort.md)
-<!-- TODO - Insertion Sort -->
+    - [Insertion Sort](./Algorithms/Sorting/InsertionSort/insertion-sort.md)
