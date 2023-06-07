@@ -5,6 +5,7 @@ class DynamicArray {
 public:
     DynamicArray();
     ~DynamicArray();
+
     void push_back(int value);
     void pop_back();
     int& at(int index);
