@@ -42,6 +42,8 @@ void display(int arr[], int size) {
 }
 
 int main() {
+    std::cout << "Bubble Sort" << std::endl;
+
     int arr[] = {5, 2, 8, 12, 3};
     int size = sizeof(arr) / sizeof(arr[0]);
 
