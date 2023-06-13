@@ -3,7 +3,7 @@
 #include "SinglyLinkedListWithTail.hpp"
 
 int main() {
-    std::cout << "Singly Linked List With Tail" << std::endl;
+    std::cout << "Singly Linked List with Tail" << std::endl;
 
     SinglyLinkedListWithTail list;
     list.insert(5);     // Inserting value 5 at the end

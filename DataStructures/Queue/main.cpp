@@ -3,6 +3,8 @@
 #include "Queue.hpp"
 
 int main() {
+    std::cout << "Queue" << std::endl;
+
     Queue queue;
 
     std::cout << "Is queue empty? " << (queue.isEmpty() ? "Yes" : "No") << std::endl;

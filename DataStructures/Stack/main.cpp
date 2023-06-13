@@ -3,6 +3,8 @@
 #include "Stack.hpp"
 
 int main() {
+    std::cout << "Stack" << std::endl;
+
     Stack stack;
 
     std::cout << "Is stack empty? " << (stack.isEmpty() ? "Yes" : "No") << std::endl;
