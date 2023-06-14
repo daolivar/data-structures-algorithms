@@ -35,6 +35,7 @@ The following data structures are currently included in this repository:
 - Sorting Algorithms
     - [Bubble Sort](./Algorithms/Sorting/BubbleSort/bubble-sort.md)
     - [Insertion Sort](./Algorithms/Sorting/InsertionSort/insertion-sort.md)
+    - [Selection Sort](./Algorithms/Sorting/SelectionSort/selection-sort.md)
 
 ## Compiling and Running C++ Programs
 
