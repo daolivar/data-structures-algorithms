@@ -1,7 +1,17 @@
 #include <iostream>
 #include <vector>
 
-// Function to perform insertion sort
+/**
+ * @brief Sorts a vector of integers using the insertion sort algorithm.
+ * 
+ * The insertionSort function applies the insertion sort algorithm to sort the elements in the input vector in ascending order.
+ * It iterates through the vector, considering each element as the "key". It then compares the key with the elements in the
+ * sorted section of the vector, shifting larger elements to the right until finding the correct position for the key. This
+ * process continues until all elements have been processed, resulting in a fully sorted vector.
+ * 
+ * @param arr The vector of integers to be sorted. The original order of the elements will be modified.
+ * @return None.
+ */
 void insertionSort(std::vector<int>& arr) {
     for (int i = 1; i < arr.size(); i++) {
         int key = arr[i];
