@@ -1,5 +1,5 @@
-#ifndef DYNAMICARRAY_H
-#define DYNAMICARRAY_H
+#ifndef DYNAMICARRAY_HPP
+#define DYNAMICARRAY_HPP
 
 class DynamicArray {
 public:

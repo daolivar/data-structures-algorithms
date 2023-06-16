@@ -1,5 +1,5 @@
-#ifndef STACK_H
-#define STACK_H
+#ifndef STACK_HPP
+#define STACK_HPP
 
 #include "Node.hpp"
 
@@ -17,4 +17,4 @@ private:
     Node* topNode;
 };
 
-#endif  // STACK_H
+#endif  // STACK_HPP

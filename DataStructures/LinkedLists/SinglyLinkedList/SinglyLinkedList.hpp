@@ -1,5 +1,5 @@
-#ifndef SINGLYLINKEDLIST_H
-#define SINGLYLINKEDLIST_H
+#ifndef SINGLYLINKEDLIST_HPP
+#define SINGLYLINKEDLIST_HPP
 
 #include "Node.hpp"
 

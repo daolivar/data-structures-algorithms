@@ -21,12 +21,14 @@ This repository contains a wide range of data structures and algorithms implemen
 
 The following data structures are currently included in this repository:
 - [Array (Dynamic)](./DataStructures/Dynamic-Array/dynamic-array.md)
-- Linked List
+- [Linked List](./DataStructures/LinkedLists/linked-list.md)
     - [Singly Linked List](./DataStructures/LinkedLists/SinglyLinkedList/singly-linked-list.md)
     - [Singly Linked List (Tail Pointer)](./DataStructures/LinkedLists/SinglyLinkedListTail/singly-linked-list-with-tail.md)
     - [Doubly Linked List](./DataStructures/LinkedLists/DoublyLinkedList/doubly-linked-list.md)
 - [Stack](./DataStructures/Stack/stack.md)
 - [Queue](./DataStructures/Queue/queue.md)
+- [Tree](./DataStructures/Trees/tree.md)
+   - [Binary Tree](./DataStructures/Trees/BinaryTree/binary-tree.md)
 
 ## Algorithms
 - Search Algorithms
