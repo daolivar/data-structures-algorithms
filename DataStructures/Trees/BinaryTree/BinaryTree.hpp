@@ -19,6 +19,9 @@ public:
 
 private:
     TreeNode* root;
+    void preOrderHelper(TreeNode* root) const;
+    void inOrderHelper(TreeNode* root) const;
+    void postOrderHelper(TreeNode* root) const;
 };
 
 #endif  // BINARYTREE_HPP

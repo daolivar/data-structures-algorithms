@@ -1,3 +1,5 @@
+#include <iostream>
+
 #include "BinaryTree.hpp"
 
 BinaryTree::BinaryTree() {
@@ -48,13 +50,40 @@ bool BinaryTree::search(int value) const {
 }
 
 void BinaryTree::preOrderTraversal() const {
-    // Method implementation
+    preOrderHelper(root);
+}
+
+void BinaryTree::preOrderHelper(TreeNode* root) const {
+    if (root == nullptr) {
+        return;
+    }
+    std::cout << root->data << " ";
+    preOrderHelper(root->left);
+    preOrderHelper(root->right);
 }
 
 void BinaryTree::inOrderTraversal() const {
-    // Method implementation
+    inOrderHelper(root);
+}
+
+void BinaryTree::inOrderHelper(TreeNode* root) const {
+    if (root == nullptr) {
+        return;
+    }
+    inOrderHelper(root->left);
+    std::cout << root->data << " ";
+    inOrderHelper(root->right);
 }
 
 void BinaryTree::postOrderTraversal() const {
-    // Method implementation
+    postOrderHelper(root);
+}
+
+void BinaryTree::postOrderHelper(TreeNode* root) const {
+    if (root == nullptr) {
+        return;
+    }
+    postOrderHelper(root->left);
+    postOrderHelper(root->right);
+    std::cout << root->data << " ";
 }
