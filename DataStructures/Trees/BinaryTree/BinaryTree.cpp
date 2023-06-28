@@ -7,7 +7,15 @@ BinaryTree::BinaryTree() {
 }
 
 BinaryTree::~BinaryTree() {
-    // Destructor implementation
+    destroyTree(root);
+}
+
+void BinaryTree::destroyTree(TreeNode* root) {
+    if (root != nullptr) {
+        destroyTree(root->left);
+        destroyTree(root->right);
+        delete root;
+    }
 }
 
 bool BinaryTree::isEmpty() const {
@@ -42,11 +50,23 @@ void BinaryTree::insert(int value) {
 }
 
 void BinaryTree::remove(int value) {
-    // Method implementation
+    
 }
 
 bool BinaryTree::search(int value) const {
-    // Method implementation
+    return searchHelper(root, value);
+}
+
+bool BinaryTree::searchHelper(TreeNode* root, int value) const {
+    if (root == nullptr) {
+        return false;
+    }
+
+    if (root->data == value) {
+        return true;
+    }
+
+    return searchHelper(root->left, value) || searchHelper(root->right, value);
 }
 
 void BinaryTree::preOrderTraversal() const {
